@@ -19,7 +19,7 @@ public class LoginTest extends BasicServer {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\"Email\"]")))
 				.sendKeys("jossearroyo@demo.com");
-		;
+		
 		driver.findElement(By.xpath("//android.widget.EditText[@text=\"Password\"]")).sendKeys("Password@12345");
 		// driver.findElement(By.xpath("//android.widget.EditText[@text=\"Password\"]")).clear();
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text='Login']")))
@@ -33,16 +33,33 @@ public class LoginTest extends BasicServer {
 		wait.until(ExpectedConditions
 				.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\'jossearroyo@demo.com\']")))
 				.sendKeys("josearroyo@demo.com");
+			
 		
-
 		wait.until(ExpectedConditions
 				.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\'Password@12345\']")))
 				.sendKeys("Password@1234");
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text='Login']")))
-				.click();
 		
 		WebElement loginbtn = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='Login']")));
+				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text='Login']")));
 		loginbtn.click();
 	}
+	
+	@Test
+	public void Login()
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\"josearroyo@demo.com\"]")))
+				.sendKeys("josearroyo@demo.com");
+			
+		
+		wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\"Password@1234\"]")))
+				.sendKeys("Password@12345");
+		
+		WebElement loginbtn = wait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.view.ViewGroup[@content-desc=\"Login\"]")));
+		loginbtn.click();
+	}
+	
 }
