@@ -6,8 +6,8 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -15,10 +15,10 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 
 public class BasicServer {
-	public AndroidDriver driver;
-	public AppiumDriverLocalService service;
+	public static AndroidDriver driver;
+	public static AppiumDriverLocalService service;
 	
-	@BeforeClass
+	@BeforeSuite
 	public void ConfigAppium() throws MalformedURLException, URISyntaxException
 	{
 
@@ -36,7 +36,7 @@ public class BasicServer {
 				System.out.println("application started successfully !!");
 	}
 	
-	@AfterClass
+	@AfterSuite
 	public void tearDown()
 	{
 //		driver.quit();

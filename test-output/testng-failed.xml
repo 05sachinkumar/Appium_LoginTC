@@ -10,6 +10,20 @@
           <include name="Logout"/>
         </methods>
       </class> <!-- Tests.LogoutTest -->
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="ConfigAppium"/>
+          <include name="tearDown"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+      <class name="Tests.ForgotTest">
+        <methods>
+          <include name="ConfigAppium"/>
+          <include name="tearDown"/>
+          <include name="forgotPass"/>
+        </methods>
+      </class> <!-- Tests.ForgotTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

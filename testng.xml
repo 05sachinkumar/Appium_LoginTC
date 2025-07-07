@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">	
     <classes>
-      <class name="Tests.BasicServer"/>
-      <class name="Tests.LoginTest"/>
-      <class name="Tests.LogoutTest"/>
+    	<class name="Tests.LoginTest"/>
+    	<class name="Tests.LogoutTest"/>
+    	<class name="Tests.ForgotTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

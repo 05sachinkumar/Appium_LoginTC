@@ -33,8 +33,9 @@ public class LoginTest extends BasicServer {
 		wait.until(ExpectedConditions
 				.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\'jossearroyo@demo.com\']")))
 				.sendKeys("josearroyo@demo.com");
-			
-		
+		wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath("//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.ImageView")))
+				.click();
 		wait.until(ExpectedConditions
 				.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\'Password@12345\']")))
 				.sendKeys("Password@1234");
@@ -43,7 +44,7 @@ public class LoginTest extends BasicServer {
 				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text='Login']")));
 		loginbtn.click();
 	}
-	
+
 	@Test
 	public void Login()
 	{
