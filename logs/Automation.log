@@ -1,0 +1,48 @@
+2025-07-09 12:54:59 [main] INFO  Tests.BasicServer - Setting up Appium server and driver...
+2025-07-09 12:55:15 [main] INFO  Tests.BasicServer - Application started successfully
+2025-07-09 12:55:15 [main] INFO  Tests.LoginTest - Running test: InvalidEmail
+2025-07-09 12:55:18 [main] INFO  Tests.LoginTest - Entered invalid email
+2025-07-09 12:55:19 [main] INFO  Tests.LoginTest - Entered password
+2025-07-09 12:55:19 [main] INFO  Tests.LoginTest - Clicking login button
+2025-07-09 12:55:20 [main] INFO  Tests.LoginTest - InvalidEmail test completed
+2025-07-09 12:55:20 [main] INFO  Tests.LoginTest - Running test: InvalidPass
+2025-07-09 12:55:26 [main] INFO  Tests.LoginTest - Clicking eye toggle visibility
+2025-07-09 12:55:26 [main] INFO  Tests.LoginTest - Entered invalid password
+2025-07-09 12:55:28 [main] INFO  Tests.LoginTest - InvalidPass test completed
+2025-07-09 12:55:28 [main] INFO  Tests.LoginTest - Running test: Login
+2025-07-09 12:55:28 [main] INFO  Tests.LoginTest - Entered email
+2025-07-09 12:55:29 [main] INFO  Tests.LoginTest - Entered password
+2025-07-09 12:55:31 [main] INFO  Tests.LoginTest - Clicking Login button
+2025-07-09 12:55:32 [main] INFO  Tests.LoginTest - Login test completed
+2025-07-09 12:55:37 [main] INFO  Tests.ProfileTest - Clicking on menu icon to open logout options
+2025-07-09 12:55:37 [main] INFO  Tests.ProfileTest - clicking on Profile tab
+2025-07-09 12:55:39 [main] INFO  Tests.ProfileTest - Profile tab is opened
+2025-07-09 12:55:39 [main] INFO  Tests.ChangePassTest - again we click menu icon for change password tab
+2025-07-09 12:55:44 [main] INFO  Tests.ChangePassTest - Clicking on change password tab
+2025-07-09 12:56:06 [main] INFO  Tests.LogoutTest - Running test: Logout
+2025-07-09 12:56:11 [main] INFO  Tests.LogoutTest - clicking menu btn for logout
+2025-07-09 12:56:11 [main] INFO  Tests.LogoutTest - Clicking 'Logout' option
+2025-07-09 12:56:13 [main] INFO  Tests.LogoutTest - Clicking 'OK' on confirmation pop-up
+2025-07-09 12:56:13 [main] INFO  Tests.LogoutTest - Logout test completed successfully
+2025-07-09 12:56:13 [main] INFO  Tests.ForgotTest - Starting test: forgotPass
+2025-07-09 12:56:13 [main] INFO  Tests.ForgotTest - Clicking 'Forgot Password?'
+2025-07-09 12:56:15 [main] INFO  Tests.ForgotTest - Entering incorrect email: jossearroyo@demo.com
+2025-07-09 12:56:16 [main] INFO  Tests.ForgotTest - Clicking 'Submit' button
+2025-07-09 12:56:17 [main] INFO  Tests.ForgotTest - Clicking 'Back to Login'
+2025-07-09 12:56:17 [main] INFO  Tests.ForgotTest - Retrying withn correct email
+2025-07-09 12:56:19 [main] INFO  Tests.ForgotTest - Entering with correct email: josearroyo@demo.com
+2025-07-09 12:56:20 [main] INFO  Tests.ForgotTest - Clicking 'Submit' button
+2025-07-09 12:56:21 [main] INFO  Tests.ForgotTest - Entering OTP: 12345
+2025-07-09 12:56:24 [main] INFO  Tests.ForgotTest - Clicking 'Submit' after OTP
+2025-07-09 12:56:26 [main] INFO  Tests.ForgotTest - Entering new password: Password@1234
+2025-07-09 12:56:26 [main] INFO  Tests.ForgotTest - click eye Toggle password visibility
+2025-07-09 12:56:28 [main] INFO  Tests.ForgotTest - Clicking 'Submit' for new password
+2025-07-09 12:56:29 [main] INFO  Tests.ForgotTest - Entering confirm password: password@1234
+2025-07-09 12:56:30 [main] INFO  Tests.ForgotTest - Eye Toggle confirm password visibility
+2025-07-09 12:56:31 [main] INFO  Tests.ForgotTest - Clicking 'Submit' for confirm password
+2025-07-09 12:56:32 [main] INFO  Tests.ForgotTest - Re-entering confirm correct password : Password@1234
+2025-07-09 12:56:33 [main] INFO  Tests.ForgotTest - Eye Toggle visibility again
+2025-07-09 12:56:34 [main] INFO  Tests.ForgotTest - Final Submit after correct password
+2025-07-09 12:56:35 [main] INFO  Tests.ForgotTest - Clicking 'Back to Login'
+2025-07-09 12:56:35 [main] INFO  Tests.ForgotTest - forgotPass test completed
+2025-07-09 12:56:35 [main] INFO  Tests.BasicServer - Test suite finished. Tearing down driver and server...
