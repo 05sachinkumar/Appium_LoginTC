@@ -28,6 +28,7 @@ public class ChangePassTest extends BasicServer{
 	@Test
 	public void ChangePass() throws InterruptedException
 	{
+		log.info("Running test: Change Password");
 		log.info("again we click menu icon for change password tab");
 		Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -37,34 +38,42 @@ public class ChangePassTest extends BasicServer{
 		log.info("Clicking on change password tab");
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text=\"Change Password\"]")))
 		.click();
+		log.info("change password tab is opened");
 		
 		// for empty fields
+		log.info("clicking update button with empty fields");
 		wait.until(ExpectedConditions.elementToBeClickable(updatebtn)).click();
-		
+		log.info("all field is empty");
 		// for Wrong current password
+		log.info("entering the curr. password:Password@1234");
 		wait.until(ExpectedConditions.presenceOfElementLocated(currpassfield)).sendKeys("Password@1234");
 		wait.until(ExpectedConditions.elementToBeClickable(currpasseyetogg)).click();
 		wait.until(ExpectedConditions.elementToBeClickable(updatebtn)).click();
 		
+		log.info("entering the New password:Password@123");
 		wait.until(ExpectedConditions.presenceOfElementLocated(newpasswdfield)).sendKeys("Password@123");
 		wait.until(ExpectedConditions.elementToBeClickable(newpasseyetogg)).click();
 		wait.until(ExpectedConditions.elementToBeClickable(updatebtn)).click();
 		
-		
+		log.info("entering the confir. password:Password@123");
 		wait.until(ExpectedConditions.presenceOfElementLocated(confirmpasswd)).sendKeys("Password@123");
 		wait.until(ExpectedConditions.elementToBeClickable(confirmpasseye)).click();
 		wait.until(ExpectedConditions.elementToBeClickable(updatebtn)).click();
 		Thread.sleep(5000);
 		
 		// for invalid format of current password
+		log.info("enter again invalid curr. password:Password1234");
 		wait.until(ExpectedConditions.presenceOfElementLocated(invalidcurrpass)).sendKeys("Password1234");
 		wait.until(ExpectedConditions.elementToBeClickable(updatebtn)).click();
 		
 		// for wrong format of New and Confirm password
+		log.info("enter re-again invalid curr. password:Password@12345");
 		wait.until(ExpectedConditions.presenceOfElementLocated(invalidcurrpass1)).sendKeys("Password@12345");
+		log.info("entering the New and Confirm password invalid format: password");
 		wait.until(ExpectedConditions.presenceOfElementLocated(newpasspresent)).sendKeys("password");
 		wait.until(ExpectedConditions.presenceOfElementLocated(confirpasspresent)).sendKeys("password");
 		
 		wait.until(ExpectedConditions.elementToBeClickable(updatebtn)).click();
+		
 	}
 }

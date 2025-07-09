@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T12:55:15 IST" name="Suite" finished-at="2025-07-09T12:56:35 IST" duration-ms="80526">
+  <suite started-at="2025-07-09T14:11:16 IST" name="Suite" finished-at="2025-07-09T14:12:36 IST" duration-ms="79301">
     <groups>
     </groups>
-    <test started-at="2025-07-09T12:55:15 IST" name="Test" finished-at="2025-07-09T12:56:35 IST" duration-ms="80526">
+    <test started-at="2025-07-09T14:11:16 IST" name="Test" finished-at="2025-07-09T14:12:36 IST" duration-ms="79301">
       <class name="Tests.ForgotTest">
-        <test-method signature="forgotPass()[pri:0, instance:Tests.ForgotTest@2bfc268b]" started-at="2025-07-09T12:56:13 IST" name="forgotPass" finished-at="2025-07-09T12:56:35 IST" duration-ms="21668" status="PASS">
+        <test-method signature="forgotPass()[pri:0, instance:Tests.ForgotTest@2bfc268b]" started-at="2025-07-09T14:12:13 IST" name="forgotPass" finished-at="2025-07-09T14:12:36 IST" duration-ms="22374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPass -->
       </class> <!-- Tests.ForgotTest -->
       <class name="Tests.LogoutTest">
-        <test-method signature="Logout()[pri:0, instance:Tests.LogoutTest@53976f5c]" started-at="2025-07-09T12:56:06 IST" name="Logout" finished-at="2025-07-09T12:56:13 IST" duration-ms="7667" status="PASS">
+        <test-method signature="Logout()[pri:0, instance:Tests.LogoutTest@53976f5c]" started-at="2025-07-09T14:12:05 IST" name="Logout" finished-at="2025-07-09T14:12:13 IST" duration-ms="7680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
       </class> <!-- Tests.LogoutTest -->
       <class name="Tests.ChangePassTest">
-        <test-method signature="ChangePass()[pri:0, instance:Tests.ChangePassTest@4e7912d8]" started-at="2025-07-09T12:55:39 IST" name="ChangePass" finished-at="2025-07-09T12:56:06 IST" duration-ms="27009" status="PASS">
+        <test-method signature="ChangePass()[pri:0, instance:Tests.ChangePassTest@4e7912d8]" started-at="2025-07-09T14:11:38 IST" name="ChangePass" finished-at="2025-07-09T14:12:05 IST" duration-ms="27136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangePass -->
       </class> <!-- Tests.ChangePassTest -->
       <class name="Tests.ProfileTest">
-        <test-method signature="Profile()[pri:0, instance:Tests.ProfileTest@770d3326]" started-at="2025-07-09T12:55:32 IST" name="Profile" finished-at="2025-07-09T12:55:39 IST" duration-ms="6764" status="PASS">
+        <test-method signature="Profile()[pri:0, instance:Tests.ProfileTest@770d3326]" started-at="2025-07-09T14:11:32 IST" name="Profile" finished-at="2025-07-09T14:11:38 IST" duration-ms="6777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Profile -->
       </class> <!-- Tests.ProfileTest -->
       <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="ConfigAppium()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T12:54:59 IST" name="ConfigAppium" finished-at="2025-07-09T12:55:15 IST" duration-ms="16026" status="PASS">
+        <test-method is-config="true" signature="ConfigAppium()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T14:11:05 IST" name="ConfigAppium" finished-at="2025-07-09T14:11:16 IST" duration-ms="11144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigAppium -->
-        <test-method signature="InvalidEmail()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T12:55:15 IST" name="InvalidEmail" finished-at="2025-07-09T12:55:20 IST" duration-ms="5081" status="PASS">
+        <test-method signature="InvalidEmail()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T14:11:16 IST" name="InvalidEmail" finished-at="2025-07-09T14:11:20 IST" duration-ms="4011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidEmail -->
-        <test-method signature="InvalidPass()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T12:55:20 IST" name="InvalidPass" finished-at="2025-07-09T12:55:28 IST" duration-ms="8163" status="PASS">
+        <test-method signature="InvalidPass()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T14:11:20 IST" name="InvalidPass" finished-at="2025-07-09T14:11:29 IST" duration-ms="8360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidPass -->
-        <test-method signature="Login()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T12:55:28 IST" name="Login" finished-at="2025-07-09T12:55:32 IST" duration-ms="4067" status="PASS">
+        <test-method signature="Login()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T14:11:29 IST" name="Login" finished-at="2025-07-09T14:11:32 IST" duration-ms="2881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T12:56:35 IST" name="tearDown" finished-at="2025-07-09T12:56:35 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@4da4253]" started-at="2025-07-09T14:12:36 IST" name="tearDown" finished-at="2025-07-09T14:12:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
