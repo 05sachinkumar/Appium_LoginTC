@@ -1,105 +1,204 @@
-2025-07-09 12:54:59 [main] INFO  Tests.BasicServer - Setting up Appium server and driver...
-2025-07-09 12:55:15 [main] INFO  Tests.BasicServer - Application started successfully
-2025-07-09 12:55:15 [main] INFO  Tests.LoginTest - Running test: InvalidEmail
-2025-07-09 12:55:18 [main] INFO  Tests.LoginTest - Entered invalid email
-2025-07-09 12:55:19 [main] INFO  Tests.LoginTest - Entered password
-2025-07-09 12:55:19 [main] INFO  Tests.LoginTest - Clicking login button
-2025-07-09 12:55:20 [main] INFO  Tests.LoginTest - InvalidEmail test completed
-2025-07-09 12:55:20 [main] INFO  Tests.LoginTest - Running test: InvalidPass
-2025-07-09 12:55:26 [main] INFO  Tests.LoginTest - Clicking eye toggle visibility
-2025-07-09 12:55:26 [main] INFO  Tests.LoginTest - Entered invalid password
-2025-07-09 12:55:28 [main] INFO  Tests.LoginTest - InvalidPass test completed
-2025-07-09 12:55:28 [main] INFO  Tests.LoginTest - Running test: Login
-2025-07-09 12:55:28 [main] INFO  Tests.LoginTest - Entered email
-2025-07-09 12:55:29 [main] INFO  Tests.LoginTest - Entered password
-2025-07-09 12:55:31 [main] INFO  Tests.LoginTest - Clicking Login button
-2025-07-09 12:55:32 [main] INFO  Tests.LoginTest - Login test completed
-2025-07-09 12:55:37 [main] INFO  Tests.ProfileTest - Clicking on menu icon to open logout options
-2025-07-09 12:55:37 [main] INFO  Tests.ProfileTest - clicking on Profile tab
-2025-07-09 12:55:39 [main] INFO  Tests.ProfileTest - Profile tab is opened
-2025-07-09 12:55:39 [main] INFO  Tests.ChangePassTest - again we click menu icon for change password tab
-2025-07-09 12:55:44 [main] INFO  Tests.ChangePassTest - Clicking on change password tab
-2025-07-09 12:56:06 [main] INFO  Tests.LogoutTest - Running test: Logout
-2025-07-09 12:56:11 [main] INFO  Tests.LogoutTest - clicking menu btn for logout
-2025-07-09 12:56:11 [main] INFO  Tests.LogoutTest - Clicking 'Logout' option
-2025-07-09 12:56:13 [main] INFO  Tests.LogoutTest - Clicking 'OK' on confirmation pop-up
-2025-07-09 12:56:13 [main] INFO  Tests.LogoutTest - Logout test completed successfully
-2025-07-09 12:56:13 [main] INFO  Tests.ForgotTest - Starting test: forgotPass
-2025-07-09 12:56:13 [main] INFO  Tests.ForgotTest - Clicking 'Forgot Password?'
-2025-07-09 12:56:15 [main] INFO  Tests.ForgotTest - Entering incorrect email: jossearroyo@demo.com
-2025-07-09 12:56:16 [main] INFO  Tests.ForgotTest - Clicking 'Submit' button
-2025-07-09 12:56:17 [main] INFO  Tests.ForgotTest - Clicking 'Back to Login'
-2025-07-09 12:56:17 [main] INFO  Tests.ForgotTest - Retrying withn correct email
-2025-07-09 12:56:19 [main] INFO  Tests.ForgotTest - Entering with correct email: josearroyo@demo.com
-2025-07-09 12:56:20 [main] INFO  Tests.ForgotTest - Clicking 'Submit' button
-2025-07-09 12:56:21 [main] INFO  Tests.ForgotTest - Entering OTP: 12345
-2025-07-09 12:56:24 [main] INFO  Tests.ForgotTest - Clicking 'Submit' after OTP
-2025-07-09 12:56:26 [main] INFO  Tests.ForgotTest - Entering new password: Password@1234
-2025-07-09 12:56:26 [main] INFO  Tests.ForgotTest - click eye Toggle password visibility
-2025-07-09 12:56:28 [main] INFO  Tests.ForgotTest - Clicking 'Submit' for new password
-2025-07-09 12:56:29 [main] INFO  Tests.ForgotTest - Entering confirm password: password@1234
-2025-07-09 12:56:30 [main] INFO  Tests.ForgotTest - Eye Toggle confirm password visibility
-2025-07-09 12:56:31 [main] INFO  Tests.ForgotTest - Clicking 'Submit' for confirm password
-2025-07-09 12:56:32 [main] INFO  Tests.ForgotTest - Re-entering confirm correct password : Password@1234
-2025-07-09 12:56:33 [main] INFO  Tests.ForgotTest - Eye Toggle visibility again
-2025-07-09 12:56:34 [main] INFO  Tests.ForgotTest - Final Submit after correct password
-2025-07-09 12:56:35 [main] INFO  Tests.ForgotTest - Clicking 'Back to Login'
-2025-07-09 12:56:35 [main] INFO  Tests.ForgotTest - forgotPass test completed
-2025-07-09 12:56:35 [main] INFO  Tests.BasicServer - Test suite finished. Tearing down driver and server...
-2025-07-09 14:11:05 [main] INFO  Tests.BasicServer - Setting up Appium server and driver...
-2025-07-09 14:11:16 [main] INFO  Tests.BasicServer - Application started successfully
-2025-07-09 14:11:16 [main] INFO  Tests.LoginTest - Running test: InvalidEmail
-2025-07-09 14:11:18 [main] INFO  Tests.LoginTest - Entered invalid email
-2025-07-09 14:11:20 [main] INFO  Tests.LoginTest - Entered password
-2025-07-09 14:11:20 [main] INFO  Tests.LoginTest - Clicking login button
-2025-07-09 14:11:20 [main] INFO  Tests.LoginTest - InvalidEmail test completed
-2025-07-09 14:11:20 [main] INFO  Tests.LoginTest - Running test: InvalidPass
-2025-07-09 14:11:26 [main] INFO  Tests.LoginTest - Clicking eye toggle visibility
-2025-07-09 14:11:27 [main] INFO  Tests.LoginTest - Entered invalid password
-2025-07-09 14:11:29 [main] INFO  Tests.LoginTest - InvalidPass test completed
-2025-07-09 14:11:29 [main] INFO  Tests.LoginTest - Running test: Login
-2025-07-09 14:11:29 [main] INFO  Tests.LoginTest - Entered email
-2025-07-09 14:11:29 [main] INFO  Tests.LoginTest - Entered password
-2025-07-09 14:11:31 [main] INFO  Tests.LoginTest - Clicking Login button
-2025-07-09 14:11:32 [main] INFO  Tests.LoginTest - Login test completed
-2025-07-09 14:11:37 [main] INFO  Tests.ProfileTest - Clicking on menu icon to open logout options
-2025-07-09 14:11:37 [main] INFO  Tests.ProfileTest - clicking on Profile tab
-2025-07-09 14:11:38 [main] INFO  Tests.ProfileTest - Profile tab is opened
-2025-07-09 14:11:38 [main] INFO  Tests.ChangePassTest - again we click menu icon for change password tab
-2025-07-09 14:11:44 [main] INFO  Tests.ChangePassTest - Clicking on change password tab
-2025-07-09 14:11:46 [main] INFO  Tests.ChangePassTest - change password tab is opened
-2025-07-09 14:11:46 [main] INFO  Tests.ChangePassTest - clicking update button with empty fields
-2025-07-09 14:11:47 [main] INFO  Tests.ChangePassTest - all field is empty
-2025-07-09 14:11:47 [main] INFO  Tests.ChangePassTest - entering the curr. password:Password@1234
-2025-07-09 14:11:50 [main] INFO  Tests.ChangePassTest - entering the New password:Password@123
-2025-07-09 14:11:52 [main] INFO  Tests.ChangePassTest - entering the confir. password:Password@123
-2025-07-09 14:12:00 [main] INFO  Tests.ChangePassTest - enter again invalid curr. password:Password1234
-2025-07-09 14:12:02 [main] INFO  Tests.ChangePassTest - enter re-again invalid curr. password:Password@12345
-2025-07-09 14:12:02 [main] INFO  Tests.ChangePassTest - entering the New and Confirm password invalid format: password
-2025-07-09 14:12:05 [main] INFO  Tests.LogoutTest - Running test: Logout
-2025-07-09 14:12:10 [main] INFO  Tests.LogoutTest - clicking menu btn for logout
-2025-07-09 14:12:11 [main] INFO  Tests.LogoutTest - Clicking 'Logout' option
-2025-07-09 14:12:13 [main] INFO  Tests.LogoutTest - Clicking 'OK' on confirmation pop-up
-2025-07-09 14:12:13 [main] INFO  Tests.LogoutTest - Logout test completed successfully
-2025-07-09 14:12:13 [main] INFO  Tests.ForgotTest - Starting test: forgotPass
-2025-07-09 14:12:13 [main] INFO  Tests.ForgotTest - Clicking 'Forgot Password?'
-2025-07-09 14:12:15 [main] INFO  Tests.ForgotTest - Entering incorrect email: jossearroyo@demo.com
-2025-07-09 14:12:16 [main] INFO  Tests.ForgotTest - Clicking 'Submit' button
-2025-07-09 14:12:17 [main] INFO  Tests.ForgotTest - Clicking 'Back to Login'
-2025-07-09 14:12:17 [main] INFO  Tests.ForgotTest - Retrying withn correct email
-2025-07-09 14:12:19 [main] INFO  Tests.ForgotTest - Entering with correct email: josearroyo@demo.com
-2025-07-09 14:12:21 [main] INFO  Tests.ForgotTest - Clicking 'Submit' button
-2025-07-09 14:12:22 [main] INFO  Tests.ForgotTest - Entering OTP: 12345
-2025-07-09 14:12:24 [main] INFO  Tests.ForgotTest - Clicking 'Submit' after OTP
-2025-07-09 14:12:26 [main] INFO  Tests.ForgotTest - Entering new password: Password@1234
-2025-07-09 14:12:27 [main] INFO  Tests.ForgotTest - click eye Toggle password visibility
-2025-07-09 14:12:28 [main] INFO  Tests.ForgotTest - Clicking 'Submit' for new password
-2025-07-09 14:12:29 [main] INFO  Tests.ForgotTest - Entering confirm password: password@1234
-2025-07-09 14:12:30 [main] INFO  Tests.ForgotTest - Eye Toggle confirm password visibility
-2025-07-09 14:12:31 [main] INFO  Tests.ForgotTest - Clicking 'Submit' for confirm password
-2025-07-09 14:12:32 [main] INFO  Tests.ForgotTest - Re-entering confirm correct password : Password@1234
-2025-07-09 14:12:33 [main] INFO  Tests.ForgotTest - Eye Toggle visibility again
-2025-07-09 14:12:34 [main] INFO  Tests.ForgotTest - Final Submit after correct password
-2025-07-09 14:12:35 [main] INFO  Tests.ForgotTest - Clicking 'Back to Login'
-2025-07-09 14:12:36 [main] INFO  Tests.ForgotTest - forgotPass test completed
-2025-07-09 14:12:36 [main] INFO  Tests.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 16:54:45 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 16:55:14 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 16:55:14 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 16:55:25 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 16:55:25 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 16:55:31 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 16:55:31 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 16:55:34 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 16:55:34 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 16:56:00 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 16:56:00 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 16:56:00 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 16:56:25 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 16:56:25 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 16:56:25 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 16:56:25 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 16:56:58 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-11 16:56:58 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-11 16:56:58 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 16:57:02 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 16:57:04 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-11 16:57:04 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 16:57:24 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 16:58:59 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 16:59:22 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 16:59:22 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 16:59:31 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 16:59:31 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 16:59:36 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 16:59:37 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 16:59:39 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 16:59:39 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 17:00:06 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 17:00:06 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 17:00:06 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 17:00:30 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 17:00:30 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 17:00:30 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 17:00:30 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 17:01:01 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-11 17:01:01 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-11 17:01:01 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 17:01:06 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 17:01:08 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-11 17:01:08 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 17:01:28 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 17:18:15 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 17:18:55 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 17:18:55 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 17:19:05 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 17:19:05 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 17:19:11 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 17:19:11 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 17:19:32 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 17:19:53 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 17:20:14 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 17:20:34 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 17:20:54 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 17:21:14 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 17:21:34 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 17:23:58 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 17:56:12 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 17:56:36 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 17:56:36 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 17:56:46 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 17:56:46 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 17:56:51 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 17:56:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 17:56:54 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 17:56:54 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 17:57:20 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 17:57:20 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 17:57:20 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 17:57:44 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 17:57:44 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 17:57:44 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 17:57:46 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 17:58:16 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-11 17:58:16 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-11 17:58:16 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 17:58:20 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 17:58:21 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-11 17:58:21 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 18:00:46 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 18:03:43 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 18:04:19 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 18:04:19 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 18:04:32 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 18:04:32 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 18:04:37 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 18:04:37 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 18:04:39 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 18:04:39 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 18:05:07 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 18:05:07 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 18:05:07 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 18:05:33 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 18:05:33 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 18:05:33 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 18:07:57 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 18:07:58 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 18:08:20 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 18:08:41 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 18:09:01 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 18:13:33 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 18:14:00 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 18:14:00 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 18:14:08 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 18:14:08 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 18:14:35 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 18:14:35 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 18:14:35 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 18:15:00 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 18:15:00 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 18:15:00 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 18:17:24 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 18:17:25 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 18:17:48 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 18:18:08 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 18:18:28 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 18:19:48 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 18:20:18 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 18:20:18 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 18:20:29 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 18:20:29 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 18:20:35 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 18:20:35 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 18:20:37 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 18:20:37 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 18:21:04 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 18:21:04 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 18:21:04 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 18:21:28 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 18:21:28 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 18:21:28 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 18:21:29 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 18:22:01 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-11 18:22:01 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-11 18:22:01 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 18:22:06 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 18:22:10 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-11 18:22:10 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 18:22:10 [main] ERROR Testcases.BasicServer - Failed during OTP expiry & resend check: org.eclipse.wst.xml.xpath2.processor.XPathParserException: JFlex lexer error: Unknown character at line 1 col 43: '
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [06e93997-4dab-4e49-98d8-83c4e44575db, findElement {value=//android.widget.TextView[contains(@text, 'OTP Expires In: 01:59"], using=xpath}]
+Capabilities {appium:app: C:\Users\Sachin Kumar\First..., appium:appActivity: com.odio.MainActivity, appium:appPackage: com.odio, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Sachin Kumar\First..., automationName: UIAutomator2, deviceName: Medium, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 06e93997-4dab-4e49-98d8-83c4e44575db
+2025-07-11 18:22:10 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 18:23:11 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 18:23:39 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 18:23:39 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 18:23:49 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 18:23:49 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 18:23:54 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 18:23:54 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 18:23:57 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 18:23:57 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 18:24:26 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 18:24:26 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 18:24:26 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 18:24:49 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 18:24:49 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 18:24:49 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyResend btn for Resend OTP*
+2025-07-11 18:24:49 [main] ERROR Testcases.BasicServer - Failed during OTP expiry & resend check: org.eclipse.wst.xml.xpath2.processor.XPathParserException: JFlex lexer error: Unknown character at line 1 col 43: '
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3943ef24-356d-49dd-8902-251e4fba9e13, findElement {value=//android.widget.TextView[contains(@text, 'OTP Expires In: 01:59"], using=xpath}]
+Capabilities {appium:app: C:\Users\Sachin Kumar\First..., appium:appActivity: com.odio.MainActivity, appium:appPackage: com.odio, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Sachin Kumar\First..., automationName: UIAutomator2, deviceName: Medium, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 3943ef24-356d-49dd-8902-251e4fba9e13
+2025-07-11 18:24:49 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 18:24:50 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 18:25:22 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-11 18:25:22 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-11 18:25:22 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 18:25:25 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 18:25:27 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-11 18:25:27 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-11 18:27:47 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-11 18:28:14 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-11 18:28:14 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-11 18:28:23 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-11 18:28:23 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-11 18:28:29 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-11 18:28:29 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-11 18:28:32 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-11 18:28:32 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-11 18:28:58 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-11 18:28:58 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-11 18:28:58 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-11 18:29:22 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-11 18:29:22 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-11 18:29:22 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-11 18:29:24 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-11 18:29:55 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-11 18:29:55 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-11 18:29:55 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-11 18:29:59 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match*
+2025-07-11 18:30:03 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-11 18:30:03 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...

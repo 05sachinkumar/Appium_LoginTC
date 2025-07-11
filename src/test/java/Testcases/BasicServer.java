@@ -1,13 +1,16 @@
-package Tests;
+package Testcases;
 
 import java.io.File;
-import java.net.MalformedURLException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -21,9 +24,16 @@ public class BasicServer {
 	public static AppiumDriverLocalService service;
 	public static Logger log = Logger.getLogger(BasicServer.class);
 	
+	public static Properties p;
+	public static WebDriverWait wait;
+	
 	@BeforeSuite
-	public void ConfigAppium() throws MalformedURLException, URISyntaxException
+	public void ConfigAppium() throws URISyntaxException, IOException
 	{
+		FileReader file = new FileReader("C://Users//Sachin Kumar//FirstAppium//src//test//resource//config.properties");
+		p = new Properties();
+		p.load(file);
+		
 		PropertyConfigurator.configure("src/test/resources/log4j.properties");
 		log.info("Setting up Appium server and driver...");
 		
@@ -37,6 +47,7 @@ public class BasicServer {
 				
 				driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+				 wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 				
 				log.info("Application started successfully");
 	}

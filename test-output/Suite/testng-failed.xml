@@ -3,13 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Tests.ChangePassTest">
+      <class name="Testcases.ForgotTest">
         <methods>
           <include name="ConfigAppium"/>
           <include name="tearDown"/>
-          <include name="ChangePass"/>
+          <include name="setupLoginPageObjects"/>
+          <include name="VerifyOTPexpireResendBtn"/>
         </methods>
-      </class> <!-- Tests.ChangePassTest -->
+      </class> <!-- Testcases.ForgotTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

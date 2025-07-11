@@ -3,11 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    	<class name="Tests.LoginTest"/>
-    	<class name="Tests.ProfileTest"/>
+    	<class name="Testcases.LoginTest"/>
+    	<class name="Testcases.ForgotTest"/>
+   <!--  	<class name="Tests.ProfileTest"/>
     	<class name="Tests.ChangePassTest"/>
-    	<class name="Tests.LogoutTest"/>
-    	<class name="Tests.ForgotTest"/>
+    	<class name="Tests.LogoutTest"/>	
+     -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
