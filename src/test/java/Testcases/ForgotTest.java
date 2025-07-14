@@ -17,7 +17,7 @@ public class ForgotTest extends BasicServer{
 	ForgotPage fp;
 	
 	@BeforeMethod
-	public void setupLoginPageObjects() {
+	public void setupForgotPageObjects() {
 		fp = new ForgotPage(driver);
 	}
 	
@@ -63,6 +63,17 @@ public class ForgotTest extends BasicServer{
 	public void verifyEmptyOtpForm() {
 		log.info("* Verifying test case: VerifyEmptyOTP Feids *");
 		fp.EmptyFields();
+		
+		String actOtpErr = fp.getOTPErrMsg();
+		Assert.assertEquals(actOtpErr, p.getProperty("otpErrMsgText"));
+		String actNewPassErr = fp.getNewpassErrMsg();
+		Assert.assertEquals(actNewPassErr, p.getProperty("newPassErrMsgText"));
+		String actConPassErr = fp.getConpassErrMsg();
+		Assert.assertEquals(actConPassErr, p.getProperty("conPassErrMsgText"));
+		log.info("Actual OTP error Message is: "+actOtpErr);
+		log.info("Actual NewPass Error Message is: "+actNewPassErr);
+		log.info("Actual ConfirmPass Errpr Message is: "+actConPassErr);
+		log.info("All Error message is printed for empty fields");
 	}
 	
 	@Test(priority = 5)
@@ -87,16 +98,26 @@ public class ForgotTest extends BasicServer{
 		fp.invFormatNewPass(p.getProperty("invalidnewpassText"));
 		fp.invFormatConfPass(p.getProperty("invalidnewconfpassText"));
 		fp.submit();
+		
+		String actinvalidPassErrMsg = fp.getInvalidPassErrMsg();
+		Assert.assertEquals(actinvalidPassErrMsg, p.getProperty("InvalidNewPassFormat"));
+		log.info("Actual Invalid NewPassword Error Msg is: "+actinvalidPassErrMsg);
+		log.info("New Password Invalid Format Error msg is printed");
 	}
 	
 	@Test(priority = 7)
 	public void VerifyPassNotMatch() {
-		log.info("* Verifying test case: Verify New and Confirm Password Do not Match*");
+		log.info("* Verifying test case: Verify New and Confirm Password Do not Match *");
 		fp.passNotMatch(p.getProperty("incorrpassText"));
 		fp.submit();
 		log.info("New and Confirm Password does not match");
 	}
 
+	@Test(priority = 8)
+	public void VerifyLoginBackBtn() {
+		log.info("* Verifying test case: Verify Login Back Btn *");
+		fp.BackLoginbtn();
+	}
 	
 }
 

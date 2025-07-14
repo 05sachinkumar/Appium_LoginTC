@@ -1,68 +1,33 @@
 package Testcases;
 
-import java.time.Duration;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import PageObject.LogoutPage;
 
 public class LogoutTest extends BasicServer{
 	
 	public static Logger log = Logger.getLogger(LogoutTest.class);
+	LogoutPage lp;
 	
-	@Test
-	public void Logout() throws InterruptedException
-	{
-		log.info("Running test: Logout");
-		
-		Thread.sleep(5000);
-		log.debug("Waiting for profile/menu icon to appear");
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		
-		
-//		log.info("again we click menu icon for change password tab");
-//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//com.horcrux.svg.GroupView/com.horcrux.svg.RectView[2]")))
-//		.click();
-//		
-//		log.info("Clicking on change password tab");
-//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text=\"Change Password\"]")))
-//		.click();
-//		
-//		// code for change password
-//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text=\"Update\"]")))
-//		.click();
-//		
-//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\"Current Password\"]")))
-//		.sendKeys("Password@1234");
-//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text=\"Update\"]")))
-//		.click();
-//		
-//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\"New Password\"]")))
-//		.sendKeys("Password@123");
-//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text=\"Update\"]")))
-//		.click();
-//		
-//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.EditText[@text=\"Confirm Password\"]")))
-//		.sendKeys("Password@123");
-//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text=\"Update\"]")))
-//		.click();
-//		
-		
-		
-		log.info("clicking menu btn for logout");
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//com.horcrux.svg.GroupView")))
-		.click();
-		
-		log.info("Clicking 'Logout' option");
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text=\"Logout\"]")))
-		.click();
-		
-		log.info("Clicking 'OK' on confirmation pop-up");
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.Button[@resource-id=\"android:id/button1\"]")))
-		.click();
-		log.info("Logout test completed successfully");
+	@BeforeMethod
+	public void setLogoutPageObject() {
+		lp = new LogoutPage(driver);
 	}
 	
+	@Test(priority = 1)
+	public void VerifyToggleBtn() {
+		log.info("** Verify testcase: clicking the Menu toggle btn **");
+		lp.menuTogg();
+		log.info("menu toggle is opened");
+	}
+	
+	@Test(priority = 2)
+	public void VerifyLogout() {
+		log.info("** Verify testcase: clicking the logout tab **");
+		lp.Logout();
+		log.info("Logout pop-up is opened");
+		log.info("the page is logout");
+	}
 }

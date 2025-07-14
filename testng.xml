@@ -5,10 +5,12 @@
     <classes>
     	<class name="Testcases.LoginTest"/>
     	<class name="Testcases.ForgotTest"/>
-   <!--  	<class name="Tests.ProfileTest"/>
+    	<class name="Testcases.HomeTest"/>
+    	<class name="Testcases.ProfileTest"/>
+    	<class name="Testcases.LogoutTest"/>
+   <!-- 
     	<class name="Tests.ChangePassTest"/>
-    	<class name="Tests.LogoutTest"/>	
-     -->
+   -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

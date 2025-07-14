@@ -15,6 +15,7 @@ public class ForgotPage extends BasicServer{
 		super();
 		PageFactory.initElements(driver, this);
 	}
+
 	
 	@FindBy(xpath = "//android.widget.TextView[@text=\"Forgot Password?\"]")
 	WebElement forgotclick;
@@ -43,7 +44,7 @@ public class ForgotPage extends BasicServer{
 	@FindBy(xpath = "//android.widget.EditText[@text=\"Confirm Password\"]")
 	WebElement confirmPass;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"OTP sent successfully\"]")
+	@FindBy(xpath = "//android.widget.TextView[@text=\'OTP sent successfully\']")
 	WebElement  OTPtoast;
 	
 	@FindBy(xpath = "//android.widget.EditText[@text=\'Enter OTP\']")
@@ -73,13 +74,18 @@ public class ForgotPage extends BasicServer{
 	@FindBy(xpath = "(//android.widget.EditText[@text=\"password\"])[2]")
 	WebElement passnotMatch;
 	
+	@FindBy(xpath = "//android.widget.TextView[@text=\"Back to Login\"]")
+	WebElement backToLoginBtn;
 	
-	@FindBy(xpath = "//android.widget.TextView[contains(@text, 'OTP Expires In: 01:59\"]")
-	WebElement otpExpire;
+	@FindBy(xpath = "//android.widget.TextView[@text=\"OTP is required\"]")
+	WebElement otperrmsg;
+	@FindBy(xpath = "//android.widget.TextView[@text=\"New password is required\"]")
+	WebElement newpasserrmsg;
+	@FindBy(xpath = "//android.widget.TextView[@text=\"Confirm your password\"]")
+	WebElement conpasserrmsg;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\'Resend OTP\']")
-	WebElement resendOTPbtn;
-	
+	@FindBy(xpath = "//android.widget.TextView[@text=\"Password must be at least 10 characters and include letters, numbers, and symbols\"]")
+	WebElement invalidpassErrMsg;
 	
 	public void clickForgot() {
 		forgotclick.click();
@@ -151,6 +157,10 @@ public class ForgotPage extends BasicServer{
 		passnotMatch.click();
 	}
 	
+	public void BackLoginbtn() {
+		backToLoginBtn.click();
+	}
+	
 	public void newpassEye() {
 		newpasseyeTogg.click();
 	}
@@ -165,6 +175,24 @@ public class ForgotPage extends BasicServer{
 			return(e.getMessage());
 		}
 			
+	}
+	
+	public String getOTPErrMsg() {
+		
+			return (otperrmsg.getText());
+	}
+	public String getNewpassErrMsg() {
+		
+		return (newpasserrmsg.getText());
+	}
+	public String getConpassErrMsg() {
+		
+		return (conpasserrmsg.getText());
+	}
+	
+	public String getInvalidPassErrMsg() {
+		
+		return (invalidpassErrMsg.getText());
 	}
 	
 }
