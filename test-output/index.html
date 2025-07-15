@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ForgotTest" class="method navigator-link" hash-for-method="verifyEnterValidOtp">verifyEnterValidOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,11 +147,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.ForgotTest" class="method navigator-link" hash-for-method="verifyEnterValidOtp">verifyEnterValidOtp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Testcases.ForgotTest" class="method navigator-link" hash-for-method="verifyIncorrEmail">verifyIncorrEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -163,12 +172,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.LoginTest" class="method navigator-link" hash-for-method="verifyemptyEmail">verifyemptyEmail</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcases.ForgotTest" class="method navigator-link" hash-for-method="verifyemptyEmail">verifyemptyEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.ForgotTest" class="method navigator-link" hash-for-method="verifyemptyEmail">verifyemptyEmail</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcases.LoginTest" class="method navigator-link" hash-for-method="verifyemptyEmail">verifyemptyEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -188,6 +197,55 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testcases.ForgotTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnterValidOtp">
+                  </a> <!-- verifyEnterValidOtp -->
+                  <span class="method-name">verifyEnterValidOtp</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //android.widget.TextView[@text=&quot;Please enter a valid OTP.&quot;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.ForgotPage.enterValidOtpToast(ForgotPage.java:116)
+	at Testcases.ForgotTest.verifyEnterValidOtp(ForgotTest.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c8a589b4-b7dc-491b-906d-9ffe6931a865, findElement {value=//android.widget.TextView[@text=&quot;Please enter a valid OTP.&quot;], using=xpath}]
+Capabilities {appium:app: C:\Users\Sachin Kumar\First..., appium:appActivity: com.odio.MainActivity, appium:appPackage: com.odio, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Sachin Kumar\First..., automationName: UIAutomator2, deviceName: Medium, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c8a589b4-b7dc-491b-906d-9ffe6931a865
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -279,13 +337,6 @@
                   <a name="verifyEmptyOtpForm">
                   </a> <!-- verifyEmptyOtpForm -->
                   <span class="method-name">verifyEmptyOtpForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyEnterValidOtp">
-                  </a> <!-- verifyEnterValidOtp -->
-                  <span class="method-name">verifyEnterValidOtp</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -393,68 +444,68 @@ data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyEnterValidOtp')
 data.setCell(0, 2, 'Testcases.ForgotTest')
-data.setCell(0, 3, 30354);
+data.setCell(0, 3, 48874);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyIncorrEmail')
 data.setCell(1, 2, 'Testcases.ForgotTest')
-data.setCell(1, 3, 24690);
+data.setCell(1, 3, 24020);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyCorrEmail')
 data.setCell(2, 2, 'Testcases.ForgotTest')
-data.setCell(2, 3, 23207);
+data.setCell(2, 3, 23058);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyemptyEmail')
 data.setCell(3, 2, 'Testcases.LoginTest')
-data.setCell(3, 3, 7382);
+data.setCell(3, 3, 7199);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyInvalidFormatPass')
 data.setCell(4, 2, 'Testcases.ForgotTest')
-data.setCell(4, 3, 5318);
+data.setCell(4, 3, 5345);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyemptyPass')
 data.setCell(5, 2, 'Testcases.LoginTest')
-data.setCell(5, 3, 4530);
+data.setCell(5, 3, 4605);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyLogin')
 data.setCell(6, 2, 'Testcases.HomeTest')
-data.setCell(6, 3, 3228);
+data.setCell(6, 3, 3217);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyMenuClick')
-data.setCell(7, 2, 'Testcases.ProfileTest')
-data.setCell(7, 3, 2936);
+data.setCell(7, 1, 'verifyEmptyOtpForm')
+data.setCell(7, 2, 'Testcases.ForgotTest')
+data.setCell(7, 3, 2973);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'VerifyPassNotMatch')
 data.setCell(8, 2, 'Testcases.ForgotTest')
-data.setCell(8, 3, 2888);
+data.setCell(8, 3, 2857);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'VerifyLogout')
 data.setCell(9, 2, 'Testcases.LogoutTest')
-data.setCell(9, 3, 2495);
+data.setCell(9, 3, 2430);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyemptyEmail')
-data.setCell(10, 2, 'Testcases.ForgotTest')
-data.setCell(10, 3, 2285);
+data.setCell(10, 1, 'verifyMenuClick')
+data.setCell(10, 2, 'Testcases.ProfileTest')
+data.setCell(10, 3, 2352);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyEmptyOtpForm')
+data.setCell(11, 1, 'verifyemptyEmail')
 data.setCell(11, 2, 'Testcases.ForgotTest')
-data.setCell(11, 3, 2167);
+data.setCell(11, 3, 2346);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'VerifyToggleBtn')
 data.setCell(12, 2, 'Testcases.LogoutTest')
-data.setCell(12, 3, 1814);
+data.setCell(12, 3, 1730);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'verifyProfileClick')
 data.setCell(13, 2, 'Testcases.ProfileTest')
-data.setCell(13, 3, 1526);
+data.setCell(13, 3, 1523);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'VerifyLoginBackBtn')
 data.setCell(14, 2, 'Testcases.ForgotTest')
-data.setCell(14, 3, 182);
+data.setCell(14, 3, 186);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -523,142 +574,144 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPageObjects</span>
-                <span class="method-start">22830 ms</span>
+                <span class="method-start">15918 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyemptyEmail</span>
-                <span class="method-start">22909 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyemptyPass</span>
-                <span class="method-start">30298 ms</span>
+                <span class="method-start">15957 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPageObjects</span>
-                <span class="method-start">30298 ms</span>
+                <span class="method-start">23162 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyemptyPass</span>
+                <span class="method-start">23162 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Testcases.ForgotTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">34830 ms</span>
+                <span class="method-start">27770 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyemptyEmail</span>
-                <span class="method-start">34852 ms</span>
+                <span class="method-start">27780 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">37138 ms</span>
+                <span class="method-start">30127 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyIncorrEmail</span>
-                <span class="method-start">37139 ms</span>
+                <span class="method-start">30129 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">61831 ms</span>
+                <span class="method-start">54151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCorrEmail</span>
-                <span class="method-start">61832 ms</span>
+                <span class="method-start">54153 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">85041 ms</span>
+                <span class="method-start">77214 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyEmptyOtpForm</span>
-                <span class="method-start">85042 ms</span>
+                <span class="method-start">77215 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">87210 ms</span>
+                <span class="method-start">80190 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyEnterValidOtp</span>
-                <span class="method-start">87212 ms</span>
+                <span class="method-start">80192 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">117567 ms</span>
+                <span class="method-start">129070 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyInvalidFormatPass</span>
-                <span class="method-start">117569 ms</span>
+                <span class="method-start">129071 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">122888 ms</span>
+                <span class="method-start">134418 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyPassNotMatch</span>
-                <span class="method-start">122889 ms</span>
+                <span class="method-start">134419 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">125778 ms</span>
+                <span class="method-start">137278 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginBackBtn</span>
-                <span class="method-start">125781 ms</span>
+                <span class="method-start">137279 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Testcases.HomeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setEmailPassObject</span>
-                <span class="method-start">125967 ms</span>
+                <span class="method-start">137468 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLogin</span>
-                <span class="method-start">125995 ms</span>
+                <span class="method-start">137493 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Testcases.ProfileTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">129226 ms</span>
+                <span class="method-start">140712 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyMenuClick</span>
-                <span class="method-start">129243 ms</span>
+                <span class="method-start">140715 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupForgotPageObjects</span>
-                <span class="method-start">132182 ms</span>
+                <span class="method-start">143071 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProfileClick</span>
-                <span class="method-start">132183 ms</span>
+                <span class="method-start">143072 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Testcases.LogoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setLogoutPageObject</span>
-                <span class="method-start">133715 ms</span>
+                <span class="method-start">144598 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyToggleBtn</span>
-                <span class="method-start">133739 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">VerifyLogout</span>
-                <span class="method-start">135555 ms</span>
+                <span class="method-start">144616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setLogoutPageObject</span>
-                <span class="method-start">135555 ms</span>
+                <span class="method-start">146348 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogout</span>
+                <span class="method-start">146349 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">138103 ms</span>
+                <span class="method-start">148832 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

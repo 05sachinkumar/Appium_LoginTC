@@ -1,145 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T12:41:37 IST" name="Suite" finished-at="2025-07-14T12:43:32 IST" duration-ms="115316">
+  <suite started-at="2025-07-15T14:36:03 IST" name="Suite" finished-at="2025-07-15T14:38:16 IST" duration-ms="132938">
     <groups>
     </groups>
-    <test started-at="2025-07-14T12:41:37 IST" name="Test" finished-at="2025-07-14T12:43:32 IST" duration-ms="115316">
+    <test started-at="2025-07-15T14:36:03 IST" name="Test" finished-at="2025-07-15T14:38:16 IST" duration-ms="132938">
       <class name="Testcases.ProfileTest">
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-14T12:43:23 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:43:23 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-15T14:38:08 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:38:08 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyMenuClick()[pri:1, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-14T12:43:23 IST" name="verifyMenuClick" finished-at="2025-07-14T12:43:26 IST" duration-ms="2936" status="PASS">
+        <test-method signature="verifyMenuClick()[pri:1, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-15T14:38:08 IST" name="verifyMenuClick" finished-at="2025-07-15T14:38:10 IST" duration-ms="2352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuClick -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-14T12:43:26 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:43:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-15T14:38:10 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:38:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyProfileClick()[pri:2, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-14T12:43:26 IST" name="verifyProfileClick" finished-at="2025-07-14T12:43:28 IST" duration-ms="1526" status="PASS">
+        <test-method signature="verifyProfileClick()[pri:2, instance:Testcases.ProfileTest@68c72235]" started-at="2025-07-15T14:38:10 IST" name="verifyProfileClick" finished-at="2025-07-15T14:38:12 IST" duration-ms="1523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfileClick -->
       </class> <!-- Testcases.ProfileTest -->
       <class name="Testcases.ForgotTest">
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:41:49 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:41:49 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:36:15 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:36:15 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyemptyEmail()[pri:1, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:41:49 IST" name="verifyemptyEmail" finished-at="2025-07-14T12:41:51 IST" duration-ms="2285" status="PASS">
+        <test-method signature="verifyemptyEmail()[pri:1, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:36:15 IST" name="verifyemptyEmail" finished-at="2025-07-15T14:36:17 IST" duration-ms="2346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyemptyEmail -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:41:51 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:41:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:36:17 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:36:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyIncorrEmail()[pri:2, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:41:51 IST" name="verifyIncorrEmail" finished-at="2025-07-14T12:42:16 IST" duration-ms="24690" status="PASS">
+        <test-method signature="verifyIncorrEmail()[pri:2, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:36:17 IST" name="verifyIncorrEmail" finished-at="2025-07-15T14:36:41 IST" duration-ms="24020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncorrEmail -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:42:16 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:42:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:36:41 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:36:41 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyCorrEmail()[pri:3, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:42:16 IST" name="verifyCorrEmail" finished-at="2025-07-14T12:42:39 IST" duration-ms="23207" status="PASS">
+        <test-method signature="verifyCorrEmail()[pri:3, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:36:41 IST" name="verifyCorrEmail" finished-at="2025-07-15T14:37:05 IST" duration-ms="23058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrEmail -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:42:39 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:42:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:37:05 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:37:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyEmptyOtpForm()[pri:4, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:42:39 IST" name="verifyEmptyOtpForm" finished-at="2025-07-14T12:42:41 IST" duration-ms="2167" status="PASS">
+        <test-method signature="verifyEmptyOtpForm()[pri:4, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:37:05 IST" name="verifyEmptyOtpForm" finished-at="2025-07-15T14:37:08 IST" duration-ms="2973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmptyOtpForm -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:42:41 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:42:41 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:37:08 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:37:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyEnterValidOtp()[pri:5, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:42:41 IST" name="verifyEnterValidOtp" finished-at="2025-07-14T12:43:11 IST" duration-ms="30354" status="PASS">
+        <test-method signature="verifyEnterValidOtp()[pri:5, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:37:08 IST" name="verifyEnterValidOtp" finished-at="2025-07-15T14:37:56 IST" duration-ms="48874" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //android.widget.TextView[@text="Please enter a valid OTP."]' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //android.widget.TextView[@text="Please enter a valid OTP."]' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObject.ForgotPage.enterValidOtpToast(ForgotPage.java:116)
+at Testcases.ForgotTest.verifyEnterValidOtp(ForgotTest.java:89)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c8a589b4-b7dc-491b-906d-9ffe6931a865, findElement {value=//android.widget.TextView[@text="Please enter a valid OTP."], using=xpath}]
+Capabilities {appium:app: C:\Users\Sachin Kumar\First..., appium:appActivity: com.odio.MainActivity, appium:appPackage: com.odio, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Sachin Kumar\First..., automationName: UIAutomator2, deviceName: Medium, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c8a589b4-b7dc-491b-906d-9ffe6931a865
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEnterValidOtp -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:43:11 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:43:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:37:56 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:37:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="verifyInvalidFormatPass()[pri:6, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:43:11 IST" name="verifyInvalidFormatPass" finished-at="2025-07-14T12:43:17 IST" duration-ms="5318" status="PASS">
+        <test-method signature="verifyInvalidFormatPass()[pri:6, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:37:56 IST" name="verifyInvalidFormatPass" finished-at="2025-07-15T14:38:02 IST" duration-ms="5345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidFormatPass -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:43:17 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:43:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:38:02 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:38:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="VerifyPassNotMatch()[pri:7, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:43:17 IST" name="VerifyPassNotMatch" finished-at="2025-07-14T12:43:20 IST" duration-ms="2888" status="PASS">
+        <test-method signature="VerifyPassNotMatch()[pri:7, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:38:02 IST" name="VerifyPassNotMatch" finished-at="2025-07-15T14:38:05 IST" duration-ms="2857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPassNotMatch -->
-        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:43:20 IST" name="setupForgotPageObjects" finished-at="2025-07-14T12:43:20 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupForgotPageObjects()[pri:0, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:38:05 IST" name="setupForgotPageObjects" finished-at="2025-07-15T14:38:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupForgotPageObjects -->
-        <test-method signature="VerifyLoginBackBtn()[pri:8, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-14T12:43:20 IST" name="VerifyLoginBackBtn" finished-at="2025-07-14T12:43:20 IST" duration-ms="182" status="PASS">
+        <test-method signature="VerifyLoginBackBtn()[pri:8, instance:Testcases.ForgotTest@49dc7102]" started-at="2025-07-15T14:38:05 IST" name="VerifyLoginBackBtn" finished-at="2025-07-15T14:38:05 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginBackBtn -->
       </class> <!-- Testcases.ForgotTest -->
       <class name="Testcases.LoginTest">
-        <test-method is-config="true" signature="ConfigAppium()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-14T12:41:14 IST" name="ConfigAppium" finished-at="2025-07-14T12:41:37 IST" duration-ms="22733" status="PASS">
+        <test-method is-config="true" signature="ConfigAppium()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-15T14:35:47 IST" name="ConfigAppium" finished-at="2025-07-15T14:36:03 IST" duration-ms="15840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigAppium -->
-        <test-method is-config="true" signature="setupLoginPageObjects()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-14T12:41:37 IST" name="setupLoginPageObjects" finished-at="2025-07-14T12:41:37 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="setupLoginPageObjects()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-15T14:36:03 IST" name="setupLoginPageObjects" finished-at="2025-07-15T14:36:03 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLoginPageObjects -->
-        <test-method signature="verifyemptyEmail()[pri:1, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-14T12:41:37 IST" name="verifyemptyEmail" finished-at="2025-07-14T12:41:44 IST" duration-ms="7382" status="PASS">
+        <test-method signature="verifyemptyEmail()[pri:1, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-15T14:36:03 IST" name="verifyemptyEmail" finished-at="2025-07-15T14:36:11 IST" duration-ms="7199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyemptyEmail -->
-        <test-method signature="verifyemptyPass()[pri:2, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-14T12:41:44 IST" name="verifyemptyPass" finished-at="2025-07-14T12:41:49 IST" duration-ms="4530" status="PASS">
+        <test-method signature="verifyemptyPass()[pri:2, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-15T14:36:11 IST" name="verifyemptyPass" finished-at="2025-07-15T14:36:15 IST" duration-ms="4605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyemptyPass -->
-        <test-method is-config="true" signature="setupLoginPageObjects()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-14T12:41:44 IST" name="setupLoginPageObjects" finished-at="2025-07-14T12:41:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupLoginPageObjects()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-15T14:36:11 IST" name="setupLoginPageObjects" finished-at="2025-07-15T14:36:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLoginPageObjects -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-14T12:43:32 IST" name="tearDown" finished-at="2025-07-14T12:43:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.LoginTest@77eca502]" started-at="2025-07-15T14:38:16 IST" name="tearDown" finished-at="2025-07-15T14:38:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Testcases.LoginTest -->
       <class name="Testcases.LogoutTest">
-        <test-method is-config="true" signature="setLogoutPageObject()[pri:0, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-14T12:43:28 IST" name="setLogoutPageObject" finished-at="2025-07-14T12:43:28 IST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setLogoutPageObject()[pri:0, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-15T14:38:12 IST" name="setLogoutPageObject" finished-at="2025-07-15T14:38:12 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLogoutPageObject -->
-        <test-method signature="VerifyToggleBtn()[pri:1, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-14T12:43:28 IST" name="VerifyToggleBtn" finished-at="2025-07-14T12:43:29 IST" duration-ms="1814" status="PASS">
+        <test-method signature="VerifyToggleBtn()[pri:1, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-15T14:38:12 IST" name="VerifyToggleBtn" finished-at="2025-07-15T14:38:14 IST" duration-ms="1730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyToggleBtn -->
-        <test-method signature="VerifyLogout()[pri:2, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-14T12:43:29 IST" name="VerifyLogout" finished-at="2025-07-14T12:43:32 IST" duration-ms="2495" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLogout -->
-        <test-method is-config="true" signature="setLogoutPageObject()[pri:0, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-14T12:43:29 IST" name="setLogoutPageObject" finished-at="2025-07-14T12:43:29 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setLogoutPageObject()[pri:0, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-15T14:38:14 IST" name="setLogoutPageObject" finished-at="2025-07-15T14:38:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLogoutPageObject -->
+        <test-method signature="VerifyLogout()[pri:2, instance:Testcases.LogoutTest@10959ece]" started-at="2025-07-15T14:38:14 IST" name="VerifyLogout" finished-at="2025-07-15T14:38:16 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogout -->
       </class> <!-- Testcases.LogoutTest -->
       <class name="Testcases.HomeTest">
-        <test-method is-config="true" signature="setEmailPassObject()[pri:0, instance:Testcases.HomeTest@6b8ca3c8]" started-at="2025-07-14T12:43:20 IST" name="setEmailPassObject" finished-at="2025-07-14T12:43:20 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="setEmailPassObject()[pri:0, instance:Testcases.HomeTest@6b8ca3c8]" started-at="2025-07-15T14:38:05 IST" name="setEmailPassObject" finished-at="2025-07-15T14:38:05 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setEmailPassObject -->
-        <test-method signature="verifyLogin()[pri:1, instance:Testcases.HomeTest@6b8ca3c8]" started-at="2025-07-14T12:43:20 IST" name="verifyLogin" finished-at="2025-07-14T12:43:23 IST" duration-ms="3228" status="PASS">
+        <test-method signature="verifyLogin()[pri:1, instance:Testcases.HomeTest@6b8ca3c8]" started-at="2025-07-15T14:38:05 IST" name="verifyLogin" finished-at="2025-07-15T14:38:08 IST" duration-ms="3217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->

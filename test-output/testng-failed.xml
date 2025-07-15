@@ -3,43 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.ProfileTest">
-        <methods>
-          <include name="verifyMenuClick"/>
-          <include name="ConfigAppium"/>
-          <include name="tearDown"/>
-          <include name="verifyProfileClick"/>
-          <include name="setupForgotPageObjects"/>
-        </methods>
-      </class> <!-- Testcases.ProfileTest -->
-      <class name="Testcases.LogoutTest">
-        <methods>
-          <include name="ConfigAppium"/>
-          <include name="tearDown"/>
-          <include name="setLogoutPageObject"/>
-          <include name="VerifyToggleBtn"/>
-          <include name="VerifyLogout"/>
-        </methods>
-      </class> <!-- Testcases.LogoutTest -->
-      <class name="Testcases.HomeTest">
-        <methods>
-          <include name="setEmailPassObject"/>
-          <include name="ConfigAppium"/>
-          <include name="tearDown"/>
-          <include name="verifyLogin"/>
-        </methods>
-      </class> <!-- Testcases.HomeTest -->
       <class name="Testcases.ForgotTest">
         <methods>
-          <include name="VerifyLoginBackBtn"/>
-          <include name="VerifyPassNotMatch"/>
-          <include name="verifyInvalidFormatPass"/>
           <include name="verifyEnterValidOtp"/>
           <include name="ConfigAppium"/>
           <include name="tearDown"/>
           <include name="setupForgotPageObjects"/>
-          <include name="verifyCorrEmail"/>
-          <include name="verifyEmptyOtpForm"/>
         </methods>
       </class> <!-- Testcases.ForgotTest -->
     </classes>

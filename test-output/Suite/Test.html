@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 14 12:41:37 IST 2025</td>
+<td>Started on:</td><td>Tue Jul 15 14:36:03 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>115 seconds (115316 ms)</td>
+<tr><td>Total time:</td><td>132 seconds (132938 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,113 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testcases.ForgotTest.verifyEnterValidOtp()'><b>verifyEnterValidOtp</b><br>Test class: Testcases.ForgotTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //android.widget.TextView[@text=&quot;Please enter a valid OTP.&quot;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.ForgotPage.enterValidOtpToast(ForgotPage.java:116)
+	at Testcases.ForgotTest.verifyEnterValidOtp(ForgotTest.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c8a589b4-b7dc-491b-906d-9ffe6931a865, findElement {value=//android.widget.TextView[@text=&quot;Please enter a valid OTP.&quot;], using=xpath}]
+Capabilities {appium:app: C:\Users\Sachin Kumar\First..., appium:appActivity: com.odio.MainActivity, appium:appPackage: com.odio, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Sachin Kumar\First..., automationName: UIAutomator2, deviceName: Medium, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c8a589b4-b7dc-491b-906d-9ffe6931a865
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1396851684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1396851684'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //android.widget.TextView[@text=&quot;Please enter a valid OTP.&quot;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.ForgotPage.enterValidOtpToast(ForgotPage.java:116)
+	at Testcases.ForgotTest.verifyEnterValidOtp(ForgotTest.java:89)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c8a589b4-b7dc-491b-906d-9ffe6931a865, findElement {value=//android.widget.TextView[@text=&quot;Please enter a valid OTP.&quot;], using=xpath}]
+Capabilities {appium:app: C:\Users\Sachin Kumar\First..., appium:appActivity: com.odio.MainActivity, appium:appPackage: com.odio, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Sachin Kumar\First..., automationName: UIAutomator2, deviceName: Medium, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c8a589b4-b7dc-491b-906d-9ffe6931a865
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+</pre></div></td>
+<td>48</td>
+<td>Testcases.ForgotTest@49dc7102</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,54 +183,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Testcases.ForgotTest.VerifyPassNotMatch()'><b>VerifyPassNotMatch</b><br>Test class: Testcases.ForgotTest</td>
+<td title='Testcases.ForgotTest.verifyemptyEmail()'><b>verifyemptyEmail</b><br>Test class: Testcases.ForgotTest</td>
 <td></td>
 <td>2</td>
 <td>Testcases.ForgotTest@49dc7102</td></tr>
-<tr>
-<td title='Testcases.LogoutTest.VerifyLogout()'><b>VerifyLogout</b><br>Test class: Testcases.LogoutTest</td>
-<td></td>
-<td>2</td>
-<td>Testcases.LogoutTest@10959ece</td></tr>
-<tr>
-<td title='Testcases.ForgotTest.verifyIncorrEmail()'><b>verifyIncorrEmail</b><br>Test class: Testcases.ForgotTest</td>
-<td></td>
-<td>24</td>
-<td>Testcases.ForgotTest@49dc7102</td></tr>
-<tr>
-<td title='Testcases.ForgotTest.verifyCorrEmail()'><b>verifyCorrEmail</b><br>Test class: Testcases.ForgotTest</td>
-<td></td>
-<td>23</td>
-<td>Testcases.ForgotTest@49dc7102</td></tr>
-<tr>
-<td title='Testcases.ForgotTest.verifyInvalidFormatPass()'><b>verifyInvalidFormatPass</b><br>Test class: Testcases.ForgotTest</td>
-<td></td>
-<td>5</td>
-<td>Testcases.ForgotTest@49dc7102</td></tr>
-<tr>
-<td title='Testcases.HomeTest.verifyLogin()'><b>verifyLogin</b><br>Test class: Testcases.HomeTest</td>
-<td></td>
-<td>3</td>
-<td>Testcases.HomeTest@6b8ca3c8</td></tr>
 <tr>
 <td title='Testcases.ProfileTest.verifyMenuClick()'><b>verifyMenuClick</b><br>Test class: Testcases.ProfileTest</td>
 <td></td>
 <td>2</td>
 <td>Testcases.ProfileTest@68c72235</td></tr>
 <tr>
-<td title='Testcases.ForgotTest.verifyEnterValidOtp()'><b>verifyEnterValidOtp</b><br>Test class: Testcases.ForgotTest</td>
-<td></td>
-<td>30</td>
-<td>Testcases.ForgotTest@49dc7102</td></tr>
-<tr>
-<td title='Testcases.ForgotTest.verifyEmptyOtpForm()'><b>verifyEmptyOtpForm</b><br>Test class: Testcases.ForgotTest</td>
+<td title='Testcases.LogoutTest.VerifyLogout()'><b>VerifyLogout</b><br>Test class: Testcases.LogoutTest</td>
 <td></td>
 <td>2</td>
-<td>Testcases.ForgotTest@49dc7102</td></tr>
-<tr>
-<td title='Testcases.LogoutTest.VerifyToggleBtn()'><b>VerifyToggleBtn</b><br>Test class: Testcases.LogoutTest</td>
-<td></td>
-<td>1</td>
 <td>Testcases.LogoutTest@10959ece</td></tr>
 <tr>
 <td title='Testcases.LoginTest.verifyemptyEmail()'><b>verifyemptyEmail</b><br>Test class: Testcases.LoginTest</td>
@@ -131,24 +203,54 @@ function toggleAllBoxes() {
 <td>7</td>
 <td>Testcases.LoginTest@77eca502</td></tr>
 <tr>
-<td title='Testcases.LoginTest.verifyemptyPass()'><b>verifyemptyPass</b><br>Test class: Testcases.LoginTest</td>
+<td title='Testcases.ForgotTest.verifyIncorrEmail()'><b>verifyIncorrEmail</b><br>Test class: Testcases.ForgotTest</td>
 <td></td>
-<td>4</td>
-<td>Testcases.LoginTest@77eca502</td></tr>
+<td>24</td>
+<td>Testcases.ForgotTest@49dc7102</td></tr>
 <tr>
-<td title='Testcases.ProfileTest.verifyProfileClick()'><b>verifyProfileClick</b><br>Test class: Testcases.ProfileTest</td>
+<td title='Testcases.ForgotTest.verifyEmptyOtpForm()'><b>verifyEmptyOtpForm</b><br>Test class: Testcases.ForgotTest</td>
 <td></td>
-<td>1</td>
-<td>Testcases.ProfileTest@68c72235</td></tr>
+<td>2</td>
+<td>Testcases.ForgotTest@49dc7102</td></tr>
+<tr>
+<td title='Testcases.ForgotTest.verifyCorrEmail()'><b>verifyCorrEmail</b><br>Test class: Testcases.ForgotTest</td>
+<td></td>
+<td>23</td>
+<td>Testcases.ForgotTest@49dc7102</td></tr>
+<tr>
+<td title='Testcases.ForgotTest.VerifyPassNotMatch()'><b>VerifyPassNotMatch</b><br>Test class: Testcases.ForgotTest</td>
+<td></td>
+<td>2</td>
+<td>Testcases.ForgotTest@49dc7102</td></tr>
 <tr>
 <td title='Testcases.ForgotTest.VerifyLoginBackBtn()'><b>VerifyLoginBackBtn</b><br>Test class: Testcases.ForgotTest</td>
 <td></td>
 <td>0</td>
 <td>Testcases.ForgotTest@49dc7102</td></tr>
 <tr>
-<td title='Testcases.ForgotTest.verifyemptyEmail()'><b>verifyemptyEmail</b><br>Test class: Testcases.ForgotTest</td>
+<td title='Testcases.HomeTest.verifyLogin()'><b>verifyLogin</b><br>Test class: Testcases.HomeTest</td>
 <td></td>
-<td>2</td>
+<td>3</td>
+<td>Testcases.HomeTest@6b8ca3c8</td></tr>
+<tr>
+<td title='Testcases.LogoutTest.VerifyToggleBtn()'><b>VerifyToggleBtn</b><br>Test class: Testcases.LogoutTest</td>
+<td></td>
+<td>1</td>
+<td>Testcases.LogoutTest@10959ece</td></tr>
+<tr>
+<td title='Testcases.ProfileTest.verifyProfileClick()'><b>verifyProfileClick</b><br>Test class: Testcases.ProfileTest</td>
+<td></td>
+<td>1</td>
+<td>Testcases.ProfileTest@68c72235</td></tr>
+<tr>
+<td title='Testcases.LoginTest.verifyemptyPass()'><b>verifyemptyPass</b><br>Test class: Testcases.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>Testcases.LoginTest@77eca502</td></tr>
+<tr>
+<td title='Testcases.ForgotTest.verifyInvalidFormatPass()'><b>verifyInvalidFormatPass</b><br>Test class: Testcases.ForgotTest</td>
+<td></td>
+<td>5</td>
 <td>Testcases.ForgotTest@49dc7102</td></tr>
 </table><p>
 </body>
