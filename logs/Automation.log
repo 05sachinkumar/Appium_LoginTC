@@ -1,0 +1,63 @@
+2025-07-14 11:56:45 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-14 11:56:56 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-14 11:57:12 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-14 11:57:12 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-14 11:57:19 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-14 11:57:19 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-14 11:57:23 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-14 11:57:23 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-14 11:57:26 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-14 11:57:26 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-14 11:57:49 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-14 11:57:49 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-14 11:57:49 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-14 11:57:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-14 11:57:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-14 11:57:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-14 11:57:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match *
+2025-07-14 11:57:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify Login Back Btn *
+2025-07-14 11:57:51 [main] INFO  Testcases.HomeTest - * Verifying test case: verify Login successfully *
+2025-07-14 11:57:51 [main] INFO  Testcases.ProfileTest - Verify Testcase: Click Menu toggle for ProfilePage
+2025-07-14 11:57:51 [main] INFO  Testcases.ProfileTest - Verify Testcase: Clicking on profile page
+2025-07-14 11:57:51 [main] INFO  Testcases.LogoutTest - ** Verify testcase: clicking the Menu toggle btn **
+2025-07-14 11:57:51 [main] INFO  Testcases.LogoutTest - ** Verify testcase: clicking the logout tab **
+2025-07-14 11:57:51 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
+2025-07-14 12:41:14 [main] INFO  Testcases.BasicServer - Setting up Appium server and driver...
+2025-07-14 12:41:37 [main] INFO  Testcases.BasicServer - Application started successfully
+2025-07-14 12:41:37 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyEmail *
+2025-07-14 12:41:44 [main] INFO  Testcases.LoginTest - Actual Emial errmsg:Please enter your email
+2025-07-14 12:41:44 [main] INFO  Testcases.LoginTest - * Verifying test case: verifyemptyPass *
+2025-07-14 12:41:49 [main] INFO  Testcases.LoginTest - Actual Pass errmsg:Please enter your password
+2025-07-14 12:41:49 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyEmptyEmail *
+2025-07-14 12:41:51 [main] INFO  Testcases.ForgotTest - Actual Emial errmsg for Forgotpass:Please enter your email
+2025-07-14 12:41:51 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyIncorrEmail *
+2025-07-14 12:42:16 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: User Not Registered
+2025-07-14 12:42:16 [main] INFO  Testcases.ForgotTest - the OTP form opened
+2025-07-14 12:42:16 [main] INFO  Testcases.ForgotTest - * Verifying test case: verifyCorrEmail *
+2025-07-14 12:42:39 [main] INFO  Testcases.ForgotTest - Actual Toast Message is: OTP sent successfully
+2025-07-14 12:42:39 [main] INFO  Testcases.ForgotTest - Toast OTP message is printed
+2025-07-14 12:42:39 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEmptyOTP Feids *
+2025-07-14 12:42:41 [main] INFO  Testcases.ForgotTest - Actual OTP error Message is: OTP is required
+2025-07-14 12:42:41 [main] INFO  Testcases.ForgotTest - Actual NewPass Error Message is: New password is required
+2025-07-14 12:42:41 [main] INFO  Testcases.ForgotTest - Actual ConfirmPass Errpr Message is: Confirm your password
+2025-07-14 12:42:41 [main] INFO  Testcases.ForgotTest - All Error message is printed for empty fields
+2025-07-14 12:42:41 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyEnternValid OTP *
+2025-07-14 12:43:11 [main] INFO  Testcases.ForgotTest - Actual Toast Message for Enter Valid OTPis: Please enter a valid OTP.
+2025-07-14 12:43:11 [main] INFO  Testcases.ForgotTest - Toast msg enter valid otp is printed
+2025-07-14 12:43:11 [main] INFO  Testcases.ForgotTest - * Verifying test case: VerifyInvalidFormat New and Confirm Password *
+2025-07-14 12:43:17 [main] INFO  Testcases.ForgotTest - Actual Invalid NewPassword Error Msg is: Password must be at least 10 characters and include letters, numbers, and symbols
+2025-07-14 12:43:17 [main] INFO  Testcases.ForgotTest - New Password Invalid Format Error msg is printed
+2025-07-14 12:43:17 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify New and Confirm Password Do not Match *
+2025-07-14 12:43:20 [main] INFO  Testcases.ForgotTest - New and Confirm Password does not match
+2025-07-14 12:43:20 [main] INFO  Testcases.ForgotTest - * Verifying test case: Verify Login Back Btn *
+2025-07-14 12:43:20 [main] INFO  Testcases.HomeTest - * Verifying test case: verify Login successfully *
+2025-07-14 12:43:23 [main] INFO  Testcases.ProfileTest - Verify Testcase: Click Menu toggle for ProfilePage
+2025-07-14 12:43:26 [main] INFO  Testcases.ProfileTest - Menu Toggle is Clicked
+2025-07-14 12:43:26 [main] INFO  Testcases.ProfileTest - Verify Testcase: Clicking on profile page
+2025-07-14 12:43:28 [main] INFO  Testcases.ProfileTest - Profile page is opened
+2025-07-14 12:43:28 [main] INFO  Testcases.LogoutTest - ** Verify testcase: clicking the Menu toggle btn **
+2025-07-14 12:43:29 [main] INFO  Testcases.LogoutTest - menu toggle is opened
+2025-07-14 12:43:29 [main] INFO  Testcases.LogoutTest - ** Verify testcase: clicking the logout tab **
+2025-07-14 12:43:32 [main] INFO  Testcases.LogoutTest - Logout pop-up is opened
+2025-07-14 12:43:32 [main] INFO  Testcases.LogoutTest - the page is logout
+2025-07-14 12:43:32 [main] INFO  Testcases.BasicServer - Test suite finished. Tearing down driver and server...
